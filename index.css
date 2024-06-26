@@ -9,7 +9,7 @@ body {
 h3 {
     font-size: 38px;
     font-weight: 300;
-    color: white;
+    color: red;
 }
 h4 {
     font-size: 21px;
@@ -203,8 +203,9 @@ header {
 .hero {
     position: relative;
     background-image: url(images/hero.png);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 500px;
 
 }
@@ -261,7 +262,6 @@ h1.huge {
     width: 80%;
     height: fit-content ;
     position: absolute;
-    z-index: 5;
     top: 0;
     bottom: 0;
     right: 0;
@@ -341,9 +341,7 @@ h1.huge {
 }
 
 .close {
-    position: fixed;
-    top: 18px;
-    right: 0;
+    display: none;
 }
 
 .close span {
